@@ -6,7 +6,7 @@ int main()
   char rank;
   cout << "Input your rank: ";
   cin >> rank;
-  if( rank == 's'){
+  if( rank == 'S'){
     cout << "You have received Super Ultra Rare Unit!!!\n";
     cout << "You have received 5 gems.\n";
     cout << "You have received 1 gems.\n";
@@ -28,7 +28,7 @@ int main()
     cout << "You have received 2000 coins.\n";
     cout << "You have received very KAK items.\n";
   }
-  else {
+  else if (rank == 'D') {
   cout << "You have received very KAK items.\n";
   }
   
